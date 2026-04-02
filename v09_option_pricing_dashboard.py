@@ -214,6 +214,7 @@ def mc_price(S, K, T, r, sigma, n, option_type="Call"):
 # ─────────────────────────────────────────────
 
 st.title("⚡ European Option Pricing Terminal")
+st.subheader("Developed by: Al Yazdani", divider=True)
 st.markdown("*Black–Scholes · Finite Difference · Monte Carlo*")
 st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
 
